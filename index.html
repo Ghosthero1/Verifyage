@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando idades</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 1px 1px 8px black;
+        }
+        div{
+            padding-top: 5px;
+            text-indent: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Verificador de idade</h1></header>
+    <section>
+        <div>
+            <p><label for="iano">Ano de nascimento</label>
+                <input type="number" name="ano" id="iano">
+            </p>          
+                    </p>
+                    <p>Sexo:
+                        <input type="radio" name="Sexo" id="mas" checked>
+                        <label for="mas">Masculino</label>
+                        <input type="radio" name="Sexo" id="fem">
+                        <label for="fem">Feminino</label>
+
+                    </p>
+                    
+                       
+                </div>
+            <p><input type="button" value="Verificar" onclick="Verificar()"></p>
+            <div id="msg">
+                    Preencha os dados acima!
+            </div>
+            
+        </div>
+
+        
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+</html>
